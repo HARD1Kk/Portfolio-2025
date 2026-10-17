@@ -105,18 +105,27 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Vision Agent is a multimodal AI agent that takes in images and screenshots, reasons over them with
-                a large language model, and produces actions or answers. It's a hands-on exploration of the
-                "computer-use" direction — teaching an agent to see a screen and decide what to do next.
+                Vision Based Agent is an autonomous, closed-loop <strong>computer-use</strong> agent. It
+                interprets screenshots, reasons over them with a multimodal LLM (Google GenAI), and executes
+                precise mouse and keyboard actions via <strong>PyAutoGUI</strong> to complete tasks — a continuous
+                perceive → reason → act agentic loop.
+              </p>
+              <p class="project-details__desc-para">
+                It's built on <strong>LangGraph</strong> to orchestrate that cycle. You describe a complex,
+                multi-step task in plain English and it executes across applications, integrating vision models
+                with low-level OS automation (Pillow handles the image side) — a hands-on architecture for
+                turning "see the screen" into "do the work."
               </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
-                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Python 3.13</div>
+                <div class="skills__skill">LangGraph</div>
+                <div class="skills__skill">Google GenAI</div>
+                <div class="skills__skill">PyAutoGUI</div>
+                <div class="skills__skill">Pillow</div>
                 <div class="skills__skill">Multimodal LLMs</div>
-                <div class="skills__skill">LLM Agents</div>
-                <div class="skills__skill">Vision</div>
               </div>
             </div>
             <div class="project-details__links">
